@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="bigContainer">
+        <div class="container">
+            <div class="periodContainer">
+                <button class="miniButton" onclick="retroceso()"><</button>
+                <h4 class="period" id="period">1° CUARTO</h4>
+                <button class="miniButton second" onclick="avance()">></button>
+            </div>
+           
+                <div>
+                    <h3 class="titles">LOCAL</h3>
+                        <div class="scoreContainer">
+                            <h3 id="homeScore"></h3>
+                        </div>
+                        <div class="buttonContainer">
+                            <button id="plusOne" onclick="plusOne()">+1</button>
+                            <button id="plusTwo" onclick= "plusTwo()">+2</button>
+                            <button id="plusThree" onclick= "plusThree()">+3</button>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <h3 class="titles">VISITA</h3>
+                        <div class="scoreContainer">
+                            <h3 id="guestScore"></h3>
+                        </div>
+                        <div class="buttonContainer">
+                            <button id="plusOneGuest" onclick="plusOneGuest()">+1</button>
+                            <button id="plusTwoGuest" onclick= "plusTwoGuest()">+2</button>
+                            <button id="plusThreeGuest" onclick= "plusThreeGuest()">+3</button>
+                        </div>    
+                    </div>
+                <button id="newGame" onclick="newGame()">Nuevo juego</button>
+        </div>
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>

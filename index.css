@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+
+body {
+    margin: 0;
+    background-color: #000000;
+
+}
+.bigContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    background-image: url("bg-basket.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    width: 42em;
+    height: 25em;
+    margin: 0 auto;
+    position: relative;
+    left: center;
+
+    border-radius: 20px;
+}
+.titles {
+    font-family: 'digital-7';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+    }
+
+.scoreContainer{
+    height: 120px;
+    width: 155px;
+    left: 82px;
+    top: 125px;
+    border-radius: 5px;
+    background-color: black;
+    margin-bottom: 26px;
+    color: white;
+}
+    
+h3{
+    font-family: 'digital-7', sans-serif;
+    color: #ff1741;
+    font-size: 7.5em;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0.3em auto;
+}
+
+.buttonContainer{
+    height: 45px;
+    width: 155px;
+    left: 82px;
+    top: 271px;
+    border-radius: 5px;
+
+}
+
+button{
+    font-family: 'digital-7';
+    width: 48px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    color:#EEEEEE;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #8382c4;
+    border-color:#8382c4;
+}
+
+.miniButton{
+    width: 25px;
+    height: 22px;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14px 0;
+    padding: 5px;
+}
+.second{
+    margin: 14px 91px;
+}
+
+#newGame {
+    position: absolute;
+    width: 4em;
+    bottom: 20px;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .periodContainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 8em;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .period{
+    position: absolute;
+    width: 4em;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'digital-7';
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #1B244A;
+    color:#ff1741;
+    display: inline-block;
+    margin: 10px auto;
+  }
+  
+  .loser{
+    color:#ac1631;
+  }
+  @font-face {
+    font-family: 'digital-7';
+    src: url('digital-7.ttf');
+  }
+  
